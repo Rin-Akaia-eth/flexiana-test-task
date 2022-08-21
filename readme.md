@@ -1,12 +1,23 @@
-# FSD + TS + React + Vite project template
+Flexiana React coding task
+The Goal
 
-[![Feature-Sliced Design][shields-fsd-image]](https://feature-sliced.design/)
+The goal of this coding challenge is to get familiar with your coding skills, but also to learn the way you like your code to be organized.
 
-Based on official [Vite React Typescript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts), but slightly changed to match [Feature-Sliced architectural methodology](https://feature-sliced.design/). Here's a list of differences
+Imagine, you receive this request from the Customer. Of course, sometimes the Customer does not know what is possible and what isn’t. Our role is to help him and explain how his requirements can be achieved in the best way possible.
 
-- Clean and empty [`app root`](./src/app/)
-- Directories for minimal set of FSD slices
-- `src/` path alias for absolute import
-- Advanced [`.gitignore`](./.gitignore)
+Customer’s requirements
 
-[shields-fsd-image]: https://img.shields.io/badge/Feature--Sliced-Design-FFFFFF?logoWidth=24&style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMuNS41aDE3djJoLTE3di0yWm0wIDNoMTd2MmgtMTd2LTJabTAgM2g4djJoLTh2LTJabTAgM2gxN3YyaC0xN3YtMlptMCAzaDE3djJoLTE3di0yWm0wIDNoOHYyaC04di0yWm0wIDNoOHYyaC04di0yWm0wIDNoOHYyaC04di0yWiIvPjwvc3ZnPg==
+The Customer would like to receive a simple React app that would enable him to look through users on Github. He doesn’t require any fancy layout, just functionality.
+
+The Customer would like to be able to search for some information about GitHub users. For example, they would like you to explore whether it is possible to search Github for all the users who have contributed to the “facebook/react” repository. Moreover, it would be great to have a possibility to search for all repositories with “*react*” or other text in the title and see all the usernames of their contributors.
+Technology
+The task needs to be a React application. For getting the Github data you can use whatever you are more comfortable with:
+- GraphQL API: https://docs.github.com/en/free-pro-team@latest/graphql 
+- or REST API https://docs.github.com/en/free-pro-team@latest/rest 
+
+Next steps
+First, communicate what is possible to deliver and what isn’t. Discuss any unclear things in customer’s requirements. After that proceed to implementation and deliver the result in the form of a link to Github public or private repository with React code.
+
+If you have any questions feel free to ask them through email.
+
+Good luck!
